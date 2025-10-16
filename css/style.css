@@ -161,6 +161,10 @@ body {
     text-decoration: underline;
 }
 
+.text-habilidades {
+    display: flex;
+}
+
 .text-habilidades p {
     font-size: 20px;
     max-width: 1000px;
@@ -189,6 +193,28 @@ body {
 
 .icons svg:hover {
     transform: scale(1.2);
+}
+
+
+
+.certificado {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.certificado img {
+    width: 55%;
+}
+
+.certificado a {
+    font-size: 18px;
+    color: #121212;
 }
 
 
