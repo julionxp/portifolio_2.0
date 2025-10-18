@@ -103,9 +103,9 @@ html {
     display: flex;
     justify-content: center; /* eixo horizontal */
     align-items: center;     /* eixo vertical */
-    height: 100vh;
+    height: 70vh;
     margin: 0;
-    gap: 200px;
+    gap: 150px;
     background-color: #f7f7f7;
 }
 
@@ -116,17 +116,18 @@ html {
 }
 
 .sobre h1 {
-    font-size: 50px;
+    font-size: 45px;
     color: #121212;
+    text-decoration: underline;
 }
 
 .sobre p {
-    font-size: 23px;
+    font-size: 20px;
     color: #121212;
 }
 
 .sobre-img img {
-    width: 480px;
+    width: 380px;
     border-radius: 300px;
     transform: rotate(4deg);
     transition: 0.3s ease;
@@ -246,13 +247,13 @@ html {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     margin: 0;
     background-color: #f7f7f7;
 }
 
 .certificado img {
-    width: 55%;
+    width: 35%;
 }
 
 .certificado a {
@@ -265,29 +266,23 @@ html {
 
 .img-projetos {
     display: flex;
+    gap: 80px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     margin: 0;
     background-color: #f7f7f7;
 }
 
-.projeto-img img {
-    width: 800px;
+.img-projetos img {
+    width: 35%;
     border: 1px solid #121212;
-    border-radius: 10px;
+    border-radius: 30px;
     transition: 0.3s ease;
 }
 
-.projeto-img img:hover {
+.img-projetos img:hover {
     transform: scale(1.1);
-}
-
-.projeto-img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 100px;
 }
 
 
@@ -298,14 +293,14 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 20vh;
     gap: 30px;
 }
 
 .footer-all {
     display: flex;
     gap: 100px;
-    padding: 100px 100px;
+    /* padding: 100px 100px; */
 }
 
 .topic-one {
