@@ -34,12 +34,17 @@ html {
 .icons {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .icons a {
     color: #121212;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.icons a:hover {
+    transform: scale(1.2);
 }
 
 
@@ -77,7 +82,7 @@ html {
 }
 
 .myself input {
-    width: 185px;
+    width: 188px;
     padding: 20px;
     margin-top: 50px;
     border-radius: 10px;
