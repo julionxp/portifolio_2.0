@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Júlio Cezar</title>
+    <link rel="stylesheet" href="css/portifolio.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                JC
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">Sobre</a></li>
+
+                <li><a href="#technologies">Tecnologias</a></li>
+
+                <li><a href="#projects">Projetos</a></li>
+
+                <li><a href="#education">Educação</a></li>
+
+                <li><a href="#experience">Experiência</a></li>
+
+                <li><a href="#contact">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="hero-greeting">
+                Olá, eu sou Júlio Cezar!
+            </span>
+
+            <h1>
+                Desenvolvedor Backend
+            </h1>
+
+            <p>
+                Desenvolvo APIs REST modernas, seguras e escaláveis
+                utilizando Python, FastAPI, PostgreSQL e Docker sempre
+                aplicando boas práticas de arquitetura e código limpo. <br>
+                <a href="#estudo" class="hero-content-p-a">Confira aqui o quê estou estudando atualmente</a>
+            </p>
+
+            <div class="hero-buttons">
+
+                <!-- "btn-primary" -->
+                <a href="#projects" class="btn-primary"> 
+                    Contate me
+                </a>
+
+                <!-- "btn-secondary" -->
+                <a href="https://drive.google.com/file/d/1hq1S07kRUXQ7zgy7YYPzqySfvOJRm0xL/view?usp=sharing" 
+                class="btn-primary" download>
+                    Download CV
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="img/minha-foto.jpeg"
+                alt="Foto de Júlio Cezar"
+            >
+
+        </div>
+
+    </section>
+    
+    <section class="about" id="about">
+        <h2>👋 Sobre Mim</h2>
+
+        <div class="about-container">
+
+            <div class="about-card">
+                <p class="about-text">
+                    Sou estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento Backend utilizando Python. Tenho interesse na construção de APIs REST robustas, seguras e escaláveis, aplicando boas práticas de arquitetura, código limpo e princípios de desenvolvimento de software.
+
+                    Atualmente, concentro meus estudos em tecnologias como FastAPI, SQLAlchemy, PostgreSQL, Docker e mecanismos de autenticação e autorização com JWT e OAuth2.
+
+                    Estou em constante evolução, sempre desenvolvendo projetos práticos e aprofundando meus conhecimentos para criar soluções bem estruturadas, performáticas e preparadas para ambientes de produção.
+                </p>
+            </div>
+
+            <p class="about-text-final">
+                Também possuo conhecimentos em Java e Spring Boot, buscando ampliar minha experiência em diferentes ecossistemas Backend.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="education" id="education">
+
+        <h2>🎓 Educação & Certificações</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="education-status">Em andamento</span>
+
+                    <h3>Análise e Desenvolvimento de Sistemas (Tecnólogo)</h3>
+
+                    <h4>UNINASSAU</h4>
+
+                    <p>
+                        Lógica de programação, POO, Banco de Dados,
+                        Engenharia de Software, Arquitetura de Software,
+                        Computação em Nuvem e Python.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="education-status completed">
+                        Concluído • 360h
+                    </span>
+
+                    <h3>Programador Full Stack (Especialização)</h3>
+
+                    <h4>SENAC</h4>
+
+                    <p>
+                        Lógica de programação, SCRUM, Kanban,
+                        Design Thinking, Front-End,
+                        JavaScript e desenvolvimento Backend com Java.
+                    </p>
+
+                    <div class="certificate">
+                        <a href="https://drive.google.com/file/d/1ATr2YQN11tV0rSxJzzl6gKzbGXvuX5PH/view?usp=sharing" target="_blank">Certificado</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="education-status">Em andamento</span>
+
+                    <h3>FastAPI - APIs Modernas e Assíncronas</h3>
+
+                    <h4>Udemy</h4>
+
+                    <p>
+                        FastAPI, SQLAlchemy Assíncrono,
+                        SQLModel, PostgreSQL, Linux,
+                        Nginx, Docker e Deploy.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="education-status completed">
+                        Concluído • 100h
+                    </span>
+
+                    <h3>Cibersegurança - Cisco (Especialização)</h3>
+
+                    <h4>SENAC</h4>
+
+                    <p>
+                        Elementos em ambiente de rede, Ameaças, ataques e vulnerabilidades mais comuns, Proteção de operações corporativas de ataques, Tecnologias de firewall, Criptografia de dados.
+                    </p>
+
+                    <div class="certificate">
+                        <a href="https://drive.google.com/file/d/1BH1aJEirhomqBm65gxQSjLEpFYGEA0iT/view?usp=sharing" target="_blank">Certificado</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="experience" id="experience">
+
+        <h2>💼 Experiência Profissional</h2>
+
+        <div class="experience-container">
+
+            <article class="experience-card">
+
+                <span class="experience-status">
+                    Concluído
+                </span>
+
+                <h3>IT-AUTOMATION (Estágio)</h3>
+
+                <h4>BTG Pactual</h4>
+
+                <p>
+                    Auxílio no desenvolvimento de novas ferramentas e sistemas,
+                    suporte na análise de banco de dados, análise de processos
+                    internos e elaboração de relatórios de acompanhamento junto
+                    ao gestor.
+                </p>
+
+                <div class="experience-tags">
+
+                    <span>💻 Automação</span>
+                    <span>🗄 Banco de Dados</span>
+                    <span>📊 Relatórios</span>
+                    <span>🤝 Trabalho em Equipe</span>
+
+                </div>
+
+            </article>
+
+            <article class="experience-card">
+
+                <span class="experience-status">
+                    Concluído
+                </span>
+
+                <h3>Auxiliar Administrativo (Jovem Aprendiz)</h3>
+
+                <h4>Clube Militar</h4>
+
+                <p>
+                    Suporte às rotinas administrativas,
+                    organização de documentos,
+                    elaboração de planilhas,
+                    apresentações e materiais utilizando
+                    Microsoft Word, Excel e PowerPoint.
+                </p>
+
+                <div class="experience-tags">
+
+                    <span>📄 Word</span>
+                    <span>📊 Excel</span>
+                    <span>📽 PowerPoint</span>
+                    <span>📁 Organização</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="technologies" id="technologies">
+
+        <h2>🛠 Tecnologias</h2>
+
+        <div class="technologies-grid">
+
+            <div class="tech-card">
+                <span>🐍</span>
+                <h3>Python</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>⚡</span>
+                <h3>FastAPI</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>🗄️</span>
+                <h3>SQLAlchemy</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>🐘</span>
+                <h3>PostgreSQL</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>🔧</span>
+                <h3>Git</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>📦</span>
+                <h3>GitHub</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>📬</span>
+                <h3>Postman</h3>
+            </div>
+
+            <div class="tech-card">
+                <span>🔐</span>
+                <h3>JWT</h3>
+            </div>
+
+        </div>
+
+        <p class="technologies-text">
+            Além dessas tecnologias, também possuo conhecimento em Java juntamente com Spring Boot o quê contribui para minha stack e versatilidade.
+        </p>
+
+    </section>
+    
+    <section class="projects" id="projects">
+
+        <h2>🚀 Projetos em Destaque</h2>
+
+        <div class="projects-container">
+
+            <!-- Projeto 1 -->
+            <article class="project-card">
+
+                <div class="project-content">
+
+                    <h3>📝 Blog API</h3>
+
+                    <p>
+                        API REST desenvolvida com FastAPI, SQLAlchemy Assíncrono,
+                        PostgreSQL e Docker. Implementa autenticação JWT, OAuth2,
+                        gerenciamento de usuários, artigos e controle de acesso.
+                    </p>
+
+                    <div class="project-techs">
+                        <span>🐍 Python</span>
+                        <span>⚡ FastAPI</span>
+                        <span>🗄 SQLAlchemy</span>
+                        <span>🔐 JWT</span>
+                        <span>🐘 PostgreSQL</span>
+                        <span>🐳 Docker</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/julionxp/blog_api" target="_blank">GitHub</a>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="project-card">
+
+                <div class="project-content">
+
+                    <h3>🎓 API Cursos</h3>
+
+                    <p>
+                        API REST construída com FastAPI seguindo uma arquitetura em
+                        camadas, implementando um CRUD completo utilizando
+                        SQLAlchemy Assíncrono e PostgreSQL.
+                    </p>
+
+                    <div class="project-techs">
+                        <span>🐍 Python</span>
+                        <span>⚡ FastAPI</span>
+                        <span>🗄 SQLAlchemy</span>
+                        <span>🐘 PostgreSQL</span>
+                        <span>🐳 Docker</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/julionxp/api_cursos" target="_blank">GitHub</a>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="project-card">
+
+                <div class="project-content">
+
+                    <h3>🎓 Agenda Django</h3>
+
+                    <p>
+                        Aplicação web completa desenvolvida com Django, utilizando PostgreSQL e autenticação baseada em JWT. Possui CRUD de contatos, paginação, upload de imagens, autenticação de usuários e deploy em produção.
+                    </p>
+
+                    <div class="project-techs">
+                        <span>🐍 Python</span>
+                        <span>⚛️ Django</span>
+                        <span>🔐 JWT</span>
+                        <span>🐘 PostgreSQL</span>
+                        <span>🐳 Docker</span>
+                        <span>📑 Paginação</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/julionxp/projeto_agenda_django" target="_blank">GitHub</a>
+                        
+                        <!-- <a href="#">Demo</a> -->
+                    </div>
+
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="learning" id="estudo">
+
+        <h2>🌱 Atualmente Estudando</h2>
+
+        <div class="learning-grid">
+
+            <div class="learning-card">⚡ FastAPI</div>
+
+            <div class="learning-card">🗄 SQLAlchemy Assíncrono</div>
+
+            <div class="learning-card">🐳 Docker</div>
+
+            <div class="learning-card">🐘 PostgreSQL</div>
+
+            <div class="learning-card">🔐 JWT</div>
+
+            <div class="learning-card">🔑 OAuth2</div>
+
+            <div class="learning-card">🛡 Autenticação e Autorização</div>
+
+            <div class="learning-card">🏛 Arquitetura de APIs REST</div>
+
+            <div class="learning-card">🐧 Linux</div>
+
+            <div class="learning-card">🌐 Nginx</div>
+
+        </div>
+
+        <p class="learning-description">
+            Estou constantemente aprimorando meus conhecimentos para construir
+            aplicações Backend cada vez mais robustas, seguras e escaláveis.
+        </p>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>📬 Entre em Contato</h2>
+
+        <div class="contact-container">
+
+            <!-- Formulário -->
+            <div class="contact-form">
+
+                <form id="contact-form">
+
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Seu nome ou empresa"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                         name="email"
+                        placeholder="Seu e-mail"
+                        required
+                    >
+
+                    <textarea
+                        rows="8"
+                        name="message"
+                        placeholder="Digite sua mensagem..."
+                        required
+                    ></textarea>
+
+                    <button type="submit">
+                        Enviar mensagem
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- Informações -->
+            <div class="contact-info">
+
+                <div class="info-card">
+
+                    <h3>📧 E-mail</h3>
+
+                    <p>
+                        <a href="mailto:juliondiniz@gmail.com">
+                            juliondiniz@gmail.com
+                        </a>
+                    </p>
+
+                    <a
+                        class="Email-btn"
+                        href="mailto:juliondiniz@gmail.com"
+                        target="_blank"
+                    >
+                        Conversar no Email
+                    </a>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>💬 WhatsApp</h3>
+
+                    <p>
+                        (21) 96021-5790
+                    </p>
+
+                    <a
+                        class="whatsapp-btn"
+                        href="https://wa.me/5521960215790"
+                        target="_blank"
+                    >
+                        Conversar no WhatsApp
+                    </a>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>🌎 Redes</h3>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/julionxp" target="_blank">
+                            GitHub
+                        </a>
+
+                        <a href="https://linkedin.com/in/júlio-cezar-408a46270" target="_blank">
+                            LinkedIn
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <p class="info-final-text">
+            Estou aberto a novas oportunidades, projetos e conversas sobre
+            desenvolvimento Backend. Se quiser trocar uma ideia, entre em contato.
+        </p>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
