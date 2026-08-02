@@ -14,6 +14,16 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+
+    max-width:100%;
+
+    height:auto;
+
+    display:block;
+
+}
+
 
 .header{
 
@@ -1436,4 +1446,334 @@ html {
         #f7f7f7 80%,
         transparent
     );
+}
+
+
+
+
+
+/* REPONSIVIDADE */
+
+
+/* TABLETS */
+@media (max-width: 1024px){
+
+    /* NAVBAR */
+
+    .navbar{
+        padding: 0 30px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    /* HERO */
+
+    .hero{
+        flex-direction:column-reverse;
+        justify-content:center;
+        gap:60px;
+        text-align:center;
+        padding:120px 30px 60px;
+    }
+
+    .hero-content{
+        max-width:700px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .hero-social{
+        justify-content:center;
+    }
+
+    .hero-image img{
+        width:320px;
+    }
+
+    /* ABOUT */
+
+    .about{
+        padding:80px 30px;
+    }
+
+    .about-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    /* TECNOLOGIAS */
+
+    .technologies-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    /* PROJETOS */
+
+    .projects-container{
+        padding:0 20px;
+    }
+
+    /* EDUCAÇÃO */
+
+    .timeline{
+        max-width:100%;
+    }
+
+    /* EXPERIÊNCIA */
+
+    .experience-container{
+        padding:0 20px;
+    }
+
+    /* CONTATO */
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+}
+
+
+
+/* CELULARES */
+
+@media (max-width:768px){
+
+    /* NAVBAR */
+
+    .navbar{
+
+        flex-direction:column;
+
+        height:auto;
+
+        padding:20px;
+
+        gap:20px;
+
+    }
+
+    .nav-links{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+        padding:130px 20px 60px;
+
+        gap:40px;
+
+    }
+
+    .hero h1{
+
+        font-size:3rem;
+
+    }
+
+    .hero h2{
+
+        font-size:1.5rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .hero-image img{
+
+        width:240px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        width:220px;
+
+        text-align:center;
+
+    }
+
+    .hero-social{
+
+        flex-wrap:wrap;
+
+    }
+
+    /* TÍTULOS */
+
+    section h2{
+
+        font-size:2.2rem !important;
+
+    }
+
+    /* ABOUT */
+
+    .about{
+
+        padding:80px 20px;
+
+    }
+
+    /* TECNOLOGIAS */
+
+    .technologies-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ESTUDOS */
+
+    .learning-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* PROJETOS */
+
+    .project-card{
+
+        padding:25px;
+
+    }
+
+    .project-techs{
+
+        justify-content:center;
+
+    }
+
+    .project-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .project-buttons a{
+
+        text-align:center;
+
+    }
+
+    /* EDUCAÇÃO */
+
+    .timeline::before{
+
+        left:12px;
+
+    }
+
+    .timeline-item{
+
+        gap:18px;
+
+    }
+
+    .timeline-content{
+
+        padding:22px;
+
+    }
+
+    /* EXPERIÊNCIA */
+
+    .experience-card{
+
+        padding:25px;
+
+    }
+
+    .experience-tags{
+
+        justify-content:center;
+
+    }
+
+    /* CONTATO */
+
+    .contact{
+
+        padding:80px 20px;
+
+    }
+
+    .contact-form,
+    .contact-info{
+
+        padding:25px;
+
+    }
+
+}
+
+
+
+/* CELULARES PEQUENOS */
+
+@media (max-width:480px){
+
+    .hero h1{
+
+        font-size:2.3rem;
+
+    }
+
+    .hero h2{
+
+        font-size:1.3rem;
+
+    }
+
+    .hero-image img{
+
+        width:190px;
+
+    }
+
+    .logo{
+
+        font-size:1.4rem;
+
+    }
+
+    .nav-links{
+
+        font-size:.9rem;
+
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        width:100%;
+
+    }
+
 }
