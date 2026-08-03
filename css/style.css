@@ -455,6 +455,8 @@ img {
 
 }
 
+.mobile-visivel { display: none; }
+
 .education h2{
 
     color:#f7f7f7;
@@ -1638,11 +1640,11 @@ img {
 
     }
 
-    .project-techs{
+    /* .project-techs{
 
         justify-content:center;
 
-    }
+    } */
 
     .project-buttons{
 
@@ -1675,6 +1677,9 @@ img {
         padding:22px;
 
     }
+
+    .desktop-visivel { display: none; }
+    .mobile-visivel { display: inline; }
 
     /* EXPERIÊNCIA */
 
@@ -1749,5 +1754,12 @@ img {
         width:100%;
 
     }
+
+    .learning h2 {
+        text-align: center;
+    }
+
+    .desktop-visivel { display: none; }
+    .mobile-visivel { display: inline; }
 
 }
