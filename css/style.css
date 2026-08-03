@@ -1640,12 +1640,6 @@ img {
 
     }
 
-    /* .project-techs{
-
-        justify-content:center;
-
-    } */
-
     .project-buttons{
 
         flex-direction:column;
@@ -1686,12 +1680,6 @@ img {
     .experience-card{
 
         padding:25px;
-
-    }
-
-    .experience-tags{
-
-        justify-content:center;
 
     }
 
