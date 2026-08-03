@@ -1453,10 +1453,6 @@ img {
         padding: 0 30px;
     }
 
-    .nav-links{
-        display: none;
-    }
-
     /* HERO */
 
     .hero{
@@ -1542,13 +1538,7 @@ img {
     }
 
     .nav-links{
-
-        flex-wrap:wrap;
-
-        justify-content:center;
-
-        gap:15px;
-
+        display: none;
     }
 
     /* HERO */
@@ -1749,7 +1739,7 @@ img {
 
     .nav-links{
 
-        font-size:.9rem;
+        display: none;
 
     }
 
